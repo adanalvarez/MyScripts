@@ -184,10 +184,10 @@ HTML_TEMPLATE = r"""
 def main():
     """
     Usage:
-      python generate_html_report_collapsed_stylish.py <repo_name> <input_json> <output_html>
+      python generate_html_report.py <repo_name> <input_json> <output_html>
     """
     if len(sys.argv) < 4:
-        print("Usage: python generate_html_report_collapsed_stylish.py <repo_name> <input_json> <output_html>")
+        print("Usage: python generate_html_report.py <repo_name> <input_json> <output_html>")
         sys.exit(1)
 
     repo_name = sys.argv[1]
